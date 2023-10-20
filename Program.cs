@@ -1,3 +1,3 @@
-﻿using ClassTutorial;
+﻿using Indexer;
 
-ClassClientCode c = new();
+ClientCode c = new();

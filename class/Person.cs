@@ -83,6 +83,7 @@ class Person
 
     /*
         If there's no additional logic in the `set` or `get` accessors, you can use an auto-implemented property.
+        In C# 9 or later, initializing a auto-implemented property by assign a value to it is available.
      */
     public sbyte Rating { get; set; } = 1;
 
@@ -172,9 +173,9 @@ class ClassClientCode
         /*
             Create objects from the class.
          */
-        var p1 = new Person() { FirstName = "Yvonne", LastName = "Lin" };
+        var p1 = new Person() { FirstName = "Yvonne", LastName = "Lin" }; // by object initializer
         // or
-        Person p2 = new("Victor", "Hsu", 3);
+        Person p2 = new("Victor", "Hsu", 3); // by constructor function
 
         Person p3 = new();
 

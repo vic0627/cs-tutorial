@@ -70,6 +70,8 @@ class Variables
     * Constants
     * Add the `const` keyword in front of the variable type can make the variable be unchangeable and read-only.
     * A const field requires a vlaue to be provided.
+    * C# only allows you to use built-in types except for the `object` as constants.
+    * Keyword `const` can be used in both method and class.
     */
 
     public static void Constants()
