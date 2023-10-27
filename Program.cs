@@ -1,3 +1,3 @@
-﻿using Indexer;
+﻿using DesignPatterns.Structural.Decorator;
 
-ClientCode c = new();
+Execute.Exe();
